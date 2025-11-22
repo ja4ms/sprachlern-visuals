@@ -70,3 +70,26 @@ ol.bjqs-markers li a:hover{
 p.bjqs-caption{
 	background: rgba(255,255,255,0.5);
 }
+/* Grössere, halbtransparente Pfeile */
+.bjqs-prev a,
+.bjqs-next a {
+  font-size: 42px;         /* nach Bedarf anpassen */
+  font-weight: bold;
+  color: rgba(0,0,0,0.35); /* halbtransparent */
+  text-decoration: none;
+}
+
+/* beim Hover deutlicher */
+.bjqs-prev a:hover,
+.bjqs-next a:hover {
+  color: rgba(0,0,0,0.75);
+}
+
+/* etwas weiter nach aussen, damit sie nicht ins Bild ragen */
+.bjqs-prev a {
+  left: -18px;
+}
+
+.bjqs-next a {
+  right: -18px;
+}

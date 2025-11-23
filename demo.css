@@ -79,11 +79,14 @@ p.bjqs-caption{
   font-weight: bold;
   color: #666;
   text-decoration: none;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.35);
 }
 
+/* Hover-Effekt für Pfeile */
 .bjqs-prev a:hover,
 .bjqs-next a:hover {
   color: #888;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.45);
 }
 
 /* leichte Positionierung */
@@ -95,11 +98,15 @@ p.bjqs-caption{
   .bjqs-prev a,
   .bjqs-next a {
     font-size: 24px;   /* etwas kleiner auf Handy */
-    left: -4px;
-    right: -4px;
   }
+
+  .bjqs-prev a { left: -4px; }
+  .bjqs-next a { right: -4px; }
 }
+
+/* Caption (Name unten links) */
 .bjqs-caption {
   font-style: italic;
-  color: #444;
+  color: #666;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.35);
 }

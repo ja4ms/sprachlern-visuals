@@ -22,9 +22,12 @@ pre{
 	border-radius: 4px;
 }
 
-h2{
-	font-size: 24px;
+#container h2 {
+  font-size: 24px !important;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
+
 
 pre + h2{
 	margin-top: 80px;

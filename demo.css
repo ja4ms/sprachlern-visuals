@@ -99,3 +99,7 @@ p.bjqs-caption{
     right: -4px;
   }
 }
+.bjqs-caption {
+  font-style: italic;
+  color: #444;
+}
